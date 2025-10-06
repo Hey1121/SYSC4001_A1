@@ -1,0 +1,71 @@
+0, 75, CPU burst
+75, 1, switch to kernel mode
+76, 10, context saved
+86, 1, find vector 5 in memory position 0x000A
+87, 1, load address 0X048B into the PC
+88, 250, ISR for device 5
+338, 1, IRET
+339, 84, CPU burst
+423, 1, switch to kernel mode
+424, 10, context saved
+434, 1, find vector 5 in memory position 0x000A
+435, 1, load address 0X048B into the PC
+436, 250, ISR for device 5
+686, 1, IRET
+687, 22, CPU burst
+709, 1, switch to kernel mode
+710, 10, context saved
+720, 1, find vector 10 in memory position 0x0014
+721, 1, load address 0X07B0 into the PC
+722, 156, ISR for device 10
+878, 1, IRET
+879, 80, CPU burst
+959, 1, switch to kernel mode
+960, 10, context saved
+970, 1, find vector 10 in memory position 0x0014
+971, 1, load address 0X07B0 into the PC
+972, 156, ISR for device 10
+1128, 1, IRET
+1129, 79, CPU burst
+1208, 1, switch to kernel mode
+1209, 10, context saved
+1219, 1, find vector 6 in memory position 0x000C
+1220, 1, load address 0X0639 into the PC
+1221, 211, ISR for device 6
+1432, 1, IRET
+1433, 68, CPU burst
+1501, 1, switch to kernel mode
+1502, 10, context saved
+1512, 1, find vector 6 in memory position 0x000C
+1513, 1, load address 0X0639 into the PC
+1514, 211, ISR for device 6
+1725, 1, IRET
+1726, 71, CPU burst
+1797, 1, switch to kernel mode
+1798, 10, context saved
+1808, 1, find vector 4 in memory position 0x0008
+1809, 1, load address 0X0292 into the PC
+1810, 300, ISR for device 4
+2110, 1, IRET
+2111, 97, CPU burst
+2208, 1, switch to kernel mode
+2209, 10, context saved
+2219, 1, find vector 4 in memory position 0x0008
+2220, 1, load address 0X0292 into the PC
+2221, 300, ISR for device 4
+2521, 1, IRET
+2522, 84, CPU burst
+2606, 1, switch to kernel mode
+2607, 10, context saved
+2617, 1, find vector 7 in memory position 0x000E
+2618, 1, load address 0X00BD into the PC
+2619, 265, ISR for device 7
+2884, 1, IRET
+2885, 38, CPU burst
+2923, 1, switch to kernel mode
+2924, 10, context saved
+2934, 1, find vector 7 in memory position 0x000E
+2935, 1, load address 0X00BD into the PC
+2936, 265, ISR for device 7
+3201, 1, IRET
+3202, 90, CPU burst

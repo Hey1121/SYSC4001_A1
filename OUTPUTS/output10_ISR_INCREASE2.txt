@@ -1,0 +1,41 @@
+0, 1, switch to kernel mode
+1, 10, context saved
+11, 1, find vector 20 in memory position 0x0028
+12, 1, load address 0X07B7 into the PC
+13, 852, ISR for device 20
+865, 1, IRET
+866, 100, CPU burst
+966, 1, switch to kernel mode
+967, 10, context saved
+977, 1, find vector 20 in memory position 0x0028
+978, 1, load address 0X07B7 into the PC
+979, 852, ISR for device 20
+1831, 1, IRET
+1832, 61, CPU burst
+1893, 1, switch to kernel mode
+1894, 10, context saved
+1904, 1, find vector 11 in memory position 0x0016
+1905, 1, load address 0X01F8 into the PC
+1906, 764, ISR for device 11
+2670, 1, IRET
+2671, 96, CPU burst
+2767, 1, switch to kernel mode
+2768, 10, context saved
+2778, 1, find vector 11 in memory position 0x0016
+2779, 1, load address 0X01F8 into the PC
+2780, 764, ISR for device 11
+3544, 1, IRET
+3545, 88, CPU burst
+3633, 1, switch to kernel mode
+3634, 10, context saved
+3644, 1, find vector 2 in memory position 0x0004
+3645, 1, load address 0X0695 into the PC
+3646, 300, ISR for device 2
+3946, 1, IRET
+3947, 42, CPU burst
+3989, 1, switch to kernel mode
+3990, 10, context saved
+4000, 1, find vector 2 in memory position 0x0004
+4001, 1, load address 0X0695 into the PC
+4002, 300, ISR for device 2
+4302, 1, IRET

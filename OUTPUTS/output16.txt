@@ -1,0 +1,69 @@
+0, 1, switch to kernel mode
+1, 10, context saved
+11, 1, find vector 18 in memory position 0x0024
+12, 1, load address 0X060A into the PC
+13, 235, ISR for device 18
+248, 1, IRET
+249, 55, CPU burst
+304, 1, switch to kernel mode
+305, 10, context saved
+315, 1, find vector 18 in memory position 0x0024
+316, 1, load address 0X060A into the PC
+317, 235, ISR for device 18
+552, 1, IRET
+553, 63, CPU burst
+616, 1, switch to kernel mode
+617, 10, context saved
+627, 1, find vector 18 in memory position 0x0024
+628, 1, load address 0X060A into the PC
+629, 235, ISR for device 18
+864, 1, IRET
+865, 18, CPU burst
+883, 1, switch to kernel mode
+884, 10, context saved
+894, 1, find vector 18 in memory position 0x0024
+895, 1, load address 0X060A into the PC
+896, 235, ISR for device 18
+1131, 1, IRET
+1132, 50, CPU burst
+1182, 1, switch to kernel mode
+1183, 10, context saved
+1193, 1, find vector 14 in memory position 0x001C
+1194, 1, load address 0X0165 into the PC
+1195, 636, ISR for device 14
+1831, 1, IRET
+1832, 56, CPU burst
+1888, 1, switch to kernel mode
+1889, 10, context saved
+1899, 1, find vector 14 in memory position 0x001C
+1900, 1, load address 0X0165 into the PC
+1901, 636, ISR for device 14
+2537, 1, IRET
+2538, 83, CPU burst
+2621, 1, switch to kernel mode
+2622, 10, context saved
+2632, 1, find vector 16 in memory position 0x0020
+2633, 1, load address 0X02DF into the PC
+2634, 68, ISR for device 16
+2702, 1, IRET
+2703, 23, CPU burst
+2726, 1, switch to kernel mode
+2727, 10, context saved
+2737, 1, find vector 16 in memory position 0x0020
+2738, 1, load address 0X02DF into the PC
+2739, 68, ISR for device 16
+2807, 1, IRET
+2808, 80, CPU burst
+2888, 1, switch to kernel mode
+2889, 10, context saved
+2899, 1, find vector 15 in memory position 0x001E
+2900, 1, load address 0X0584 into the PC
+2901, 456, ISR for device 15
+3357, 1, IRET
+3358, 98, CPU burst
+3456, 1, switch to kernel mode
+3457, 10, context saved
+3467, 1, find vector 15 in memory position 0x001E
+3468, 1, load address 0X0584 into the PC
+3469, 456, ISR for device 15
+3925, 1, IRET
